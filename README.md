@@ -9,6 +9,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![NLTK](https://img.shields.io/badge/NLTK-3.8%2B-154360?style=for-the-badge)](https://nltk.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
+[![Live App](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge)](https://ai-manipulation-risk-analyzer.streamlit.app/)
 
 <br/>
 
@@ -52,7 +53,17 @@ Built as part of the **Microsoft Elevate AI Internship Programme**, this project
 
 ## 🌐 Live Demo
 
-> Deploy your own instance in minutes — see [Streamlit Cloud Deployment](#-deployment--streamlit-cloud) below.
+### 👉 [https://ai-manipulation-risk-analyzer.streamlit.app](https://ai-manipulation-risk-analyzer.streamlit.app/)
+
+> Click the link above to try the app instantly — no installation required!
+
+**Quick test examples:**
+
+| Paste this text | Expected Result |
+|---|---|
+| `"Scientists published findings on coral reef ecosystems."` | 🟢 Low Risk |
+| `"You won't believe what this politician said to enrage millions!"` | 🟡 Moderate Risk |
+| `"URGENT: Government secretly poisoning water — act NOW before it's too late!"` | 🔴 High Risk |
 
 **Run locally:**
 ```bash
